@@ -1,0 +1,260 @@
+@import url(//fonts.googleapis.com/css?family=Karla|Arial|Audiowide|Freckle+Face|Exo+2|Hammersmith+One|Ceviche+One|Open+Sans);
+/*
+
+!!!!!!!!!! WARNING !!!!!!!!!!
+
+If you edit theme.css, your changes will be overwritten by any compilation of theme.less
+Please remember to replicate your changes in init.less, or just make your changes in another file if possible
+
+!!!!!!!!!! WARNING !!!!!!!!!!
+
+*/
+/**
+ *   Bigcommerce Bride To Be with Less
+ *   – For the Less variables and functions that you don't want available in the Style Editor, declare them in this file.
+ */
+/**
+ *   Bigcommerce BrideToBe with Less
+ *
+ *   For compatability with the Bigcommerce Style Editor:
+ *    + Import your Google fonts first
+ *
+ *    + Declare your fonts for use in the editor by using '@font-declaration' (JSON format)
+ *      eg @font-declaration: '{ "Open Sans":["Open Sans","Arial","sans-serif"], "Freckle Face":["Freckle Face","cursive"] }'
+ *
+ *    + Declare your color palette for use in the editor by using '@color-declaration'
+ *      eg @color-declaration: '["#333", "#1399BE", "#EDEDED", "#FFF"]';
+ *
+ *    + Prefix fonts with '@font-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix colors with '@color-' for the style editor to make it editable by the end user
+ *
+ *    + Prefix settings with '@setting-' for the style editor to make it adjustable by the end user
+ */
+/**
+ *   Declarations   
+ */
+/**
+ *   Bigcommerce BrideToBe
+ *   Style Initialisation
+ */
+#Header {
+  background-color: #ffffff;
+}
+#TopMenu li a {
+  color: #b3b3b3;
+}
+#TopMenu li {
+  border-right: 1px solid #b3b3b3;
+}
+.currency-converter p {
+  color: #b3b3b3;
+}
+.currency-converter p span {
+  color: #b3b3b3;
+}
+#TopMenu {
+  background-color: #ffffff;
+}
+.PageMenu {
+  background-color: #ffffff;
+}
+#LogoContainer a {
+  color: #5a5353;
+}
+#SearchForm {
+  border-bottom: 1px dashed #aca9a9;
+}
+.PageMenu {
+  border-top: 1px dashed #aca9a9;
+  border-bottom: 1px dashed #aca9a9;
+}
+.PageMenu a {
+  color: #5a5353;
+}
+#ContainerFooter {
+  background-color: #e6e5e5;
+}
+#FooterUpper .RecentNews li p {
+  color: #8f8a8a;
+}
+.NewsletterSubscription label {
+  color: #8f8a8a;
+}
+#ContainerFooter #SideShopByBrand h3 {
+  color: #aca9a9;
+  border-bottom: 1px dashed #aca9a9;
+}
+#ContainerFooter h4 {
+  color: #aca9a9;
+  border-bottom: 1px dashed #aca9a9;
+}
+#ContainerFooter .borderB {
+  border-bottom: 1px dashed #aca9a9 !important;
+}
+#Footer .PageMenu li {
+  border-left: 1px solid #aca9a9;
+}
+#Footer .PageMenu a {
+  color: #aca9a9;
+}
+#ContainerFooter,
+#ContainerFooter a {
+  color: #aca9a9;
+}
+#ContainerFooter strong {
+  color: #aca9a9;
+}
+#SideNewsletterBox .btn.inverse {
+  background-color: #aca9a9;
+  outline-color: #aca9a9;
+}
+#Footer .PageMenu ul {
+  border-bottom: 1px dashed #aca9a9;
+}
+#Footer ul {
+  border-top: 1px dashed #aca9a9;
+}
+#HomeFeaturedProducts h2 {
+  color: #5a5353;
+}
+#HomeNewProducts h2 {
+  color: #5a5353;
+}
+#HomeFeaturedProducts .ProductList .pname {
+  color: #5a5353;
+}
+#HomeNewProducts .ProductList .pname {
+  color: #5a5353;
+}
+#HomeFeaturedProducts .ProductPrice,
+.ProductList em {
+  color: #5a5353;
+}
+#HomeNewProducts .ProductPrice,
+.ProductList em {
+  color: #5a5353;
+}
+#home .ProductList .btn {
+  background-color: #c74414;
+  outline-color: #c74414;
+}
+#home .ProductList .btn:hover,
+#ProductDetails .btn:hover,
+#CategoryContent .btn:hover {
+  background-color: #aca9a9;
+  outline-color: #aca9a9;
+}
+#ProductDetails .Value a {
+  color: #b3adad;
+}
+#ProductDetails .Value a:hover,
+#ProductDetails h1 {
+  color: #5a5353;
+}
+.left-content .ProductList .ProductDetails .pname {
+  color: #5a5353;
+}
+.ProductDetailsGrid .DetailRow.PriceRow .Value em {
+  color: #5a5353;
+}
+.left-content .ProductList em.p-price {
+  color: #5a5353;
+}
+#prodAccordion .current .sub-title1,
+#prodAccordion .current .sub-title1 .bul {
+  color: #5a5353;
+}
+#prodAccordion .Block h2 {
+  color: #5a5353;
+}
+#ProductDetails .sub-title {
+  color: #5a5353;
+}
+#ProductDescription p {
+  color: #5a5353;
+}
+#ProductDescription p strong,
+b {
+  color: #5a5353;
+}
+.ProductDetailsGrid .DetailRow h4 {
+  color: #5a5353;
+}
+div.selector select {
+  color: #5a5353;
+}
+.ProductDetailsGrid .Value {
+  color: #5a5353;
+}
+.productOptionViewRectangle label {
+  color: #5a5353;
+}
+.ProductAddToCart .productAttributeLabel {
+  color: #5a5353;
+}
+.CartItemQuantity .selector,
+.DetailRow.qty .selector {
+  color: #5a5353;
+}
+#ProductDetails .btn {
+  background-color: #c74414;
+  outline-color: #c74414;
+}
+#CategoryHeading h1 {
+  color: #5a5353;
+}
+#SideCategoryList h3 {
+  color: #5a5353;
+}
+.Left #SideCategoryList li a,
+.Left .slist li a,
+.Left .afterSideShopByBrand a,
+.Left #GiftCertificatesMenu li a,
+.Left #SideAccountMenu li a {
+  color: #aca9a9;
+}
+.Left #SideCategoryList li li a,
+.Left .slist li li a {
+  color: #aca9a9;
+}
+#CategoryContent .ProductList .pname {
+  color: #5a5353;
+}
+#CategoryContent .ProductList em {
+  color: #5a5353;
+}
+#CategoryContent .btn {
+  background-color: #c74414;
+  outline-color: #c74414;
+}
+#CategoryContent .btn.inverse {
+  background-color: #aca9a9;
+  outline-color: #aca9a9;
+}
+body {
+  background: #ffffff;
+}
+.Breadcrumb li a {
+  color: #999999;
+}
+.Breadcrumb li {
+  color: #999999;
+}
+.ProductList .ProductDetails {
+  font-family: "Arial", Sans-Serif;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Karla", Arial, Sans-Serif;
+}
